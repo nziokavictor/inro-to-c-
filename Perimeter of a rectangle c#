@@ -1,0 +1,21 @@
+using System;
+public class Helloworld 
+{
+   public static void main (string [] args)
+   { 
+      int length, width, perimeter;
+
+      Console.WriteLine(" enter your length");
+      length=Convert.ToInt32(Console.ReadLine());
+
+      Console.WriteLine(" enter your width");
+      Width=Convert.ToInt32(Console.ReadLine());
+
+      perimeter= 2*( length + width);
+
+      Console.WriteLine("the perimeter of the rectangle with dimentions above is" + perimeter );
+     }
+}
+
+
+     
