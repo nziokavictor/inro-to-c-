@@ -1,5 +1,6 @@
-// Online C# Editor for free
-// Write, Edit and Run your C# code using C# Online Compiler
+// this code is an example of real life use case of if else control structures 
+// the code is used to assign grades based on what a student scores 
+//i.e if a student scores 90+ he gets an a or if he scores below 50 he gets an E or fail 
 
 using System;
 
