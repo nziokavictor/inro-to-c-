@@ -1,0 +1,17 @@
+// this code runs repetedlly from its initiation (10) decrements,
+   and exists when the number is greater or equal to 0
+
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int num= 10;
+        
+    while (num >=0) {
+        Console.WriteLine (num);
+        
+          num--;
+       }
+    }
+}
