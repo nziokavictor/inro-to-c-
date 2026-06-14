@@ -1,3 +1,6 @@
+// this code is a loop in c#. the code has predefined values ( irl the values will be in a database)
+// the code asks the user to enter password, if password match he/she is authenticated. if passwords 
+// dont match the user gets an error message and is prompted to enter the login details again. 
 using System;
 
 public class HelloWorld
@@ -25,10 +28,10 @@ public class HelloWorld
         password=Convert.ToInt32(Console.ReadLine());
         }
         
-       // if (password == admin && password== 1234){
-       // Console.WriteLine("login succesfull:welcome");
+        if (password == admin && password== 1234){
+       Console.WriteLine("login succesfull:welcome");
         
-      //  else
-      //  Console.WriteLine ("login succesfull welcome ");
-      //  }
+     else
+      Console.WriteLine ("login succesfull welcome ");
+      }
     }
